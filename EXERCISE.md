@@ -89,8 +89,6 @@ The rescue team needs to know the state of your ship.
    - Each option should have a `value` attribute (like "low", "medium", "high")
    - Each option's text content should be: "Low", "Medium", and "High" respectively
 
----
-
 ### Phase 4: Mission Log & Evidence (Fieldset 3)
 Explain the situation and agree to safety protocols.
 
@@ -191,13 +189,4 @@ Once your form is complete and working, add these final touches:
       
       <script src="./scripts/launch.js"></script>
   </body>
-  </html>
-  ```
-
-**Important Notes:**
-- The CSS link must be in the `<head>` section (where all stylesheets go)
-- The iframe must be in the `<body>` section (only visible content goes here)
-- Make sure the iframe comes BEFORE your form in the body
-- The script must be placed at the END of the `<body>` section, right before the closing `</body>` tag (after your closing `</form>` tag)
-
-🎉 **Congratulations!** Your transmission interface is now operational with a stunning Jupiter background and an interactive launch sequence!
+... (10 lines left)
